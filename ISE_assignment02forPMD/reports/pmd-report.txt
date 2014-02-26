@@ -1,0 +1,159 @@
+[1;33m*[0m file: [1;37msrc/code/CorrectlyWrong.java[0m
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mLongVariable
+[0;32m    msg:  [0mAvoid excessively long variable names like ContainsDuplicates
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mLooseCoupling
+[0;32m    msg:  [0mAvoid using implementation types like 'ArrayList'; use the interface instead
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mFound non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mPrivate field 'ContainsDuplicates' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mVariableNamingConventions
+[0;32m    msg:  [0mVariables should start with a lowercase character, 'ContainsDuplicates' starts with uppercase character.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mLongVariable
+[0;32m    msg:  [0mAvoid excessively long variable names like containsDuplicates
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mLooseCoupling
+[0;32m    msg:  [0mAvoid using implementation types like 'ArrayList'; use the interface instead
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mMethodArgumentCouldBeFinal
+[0;32m    msg:  [0mParameter 'containsDuplicates' is not assigned and could be declared final
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m13:13[0m
+[0;32m    rule: [0mLooseCoupling
+[0;32m    msg:  [0mAvoid using implementation types like 'ArrayList'; use the interface instead
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m13:18[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mFound 'UR'-anomaly for variable 'elem' (lines '13'-'18').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mVariableNamingConventions
+[0;32m    msg:  [0mVariables should start with a lowercase character, 'TEMP' starts with uppercase character.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mLocalVariableCouldBeFinal
+[0;32m    msg:  [0mLocal variable 'duplicatesRemoved' could be declared final
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m16:27[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mFound 'DU'-anomaly for variable 'TEMP' (lines '16'-'27').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m17:17[0m
+[0;32m    rule: [0mLocalVariableCouldBeFinal
+[0;32m    msg:  [0mLocal variable 'elem' could be declared final
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m19:19[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mPotential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m20:27[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mFound 'DU'-anomaly for variable 'TEMP' (lines '20'-'27').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m23:25[0m
+[0;32m    rule: [0mEmptyIfStmt
+[0;32m    msg:  [0mAvoid empty if statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m23:25[0m
+[0;32m    rule: [0mEmptyIfStmt
+[0;32m    msg:  [0mAvoid empty if statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m23:23[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mPotential violation of Law of Demeter (object not created locally)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:25[0m
+[0;32m    rule: [0mEmptyStatementNotInLoop
+[0;32m    msg:  [0mAn empty statement (semicolon) not part of a loop
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:25[0m
+[0;32m    rule: [0mEmptyStatementNotInLoop
+[0;32m    msg:  [0mAn empty statement (semicolon) not part of a loop
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:25[0m
+[0;32m    rule: [0mUnusedLocalVariable
+[0;32m    msg:  [0mAvoid unused local variables such as 'd'.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:25[0m
+[0;32m    rule: [0mShortVariable
+[0;32m    msg:  [0mAvoid variables with short names like d
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:27[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mFound 'DU'-anomaly for variable 'd' (lines '25'-'27').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/code/CorrectlyWrong.java[0m:[0;36m25:25[0m
+[0;32m    rule: [0mLocalVariableCouldBeFinal
+[0;32m    msg:  [0mLocal variable 'd' could be declared final
+[0;32m    code: [0mnull
+
+[1;33m*[0m file: [1;37msrc/test/CorrectlyWrongTest.java[0m
+[0;32m    src:  [0;36msrc/test/CorrectlyWrongTest.java[0m:[0;36m14:14[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mFound non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/test/CorrectlyWrongTest.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mLooseCoupling
+[0;32m    msg:  [0mAvoid using implementation types like 'ArrayList'; use the interface instead
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/test/CorrectlyWrongTest.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mFound non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/test/CorrectlyWrongTest.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mDefaultPackage
+[0;32m    msg:  [0mUse explicit scoping instead of the default package private level
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/test/CorrectlyWrongTest.java[0m:[0;36m33:33[0m
+[0;32m    rule: [0mLocalVariableCouldBeFinal
+[0;32m    msg:  [0mLocal variable 'result' could be declared final
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+test.CorrectlyWrongTest : 3
+code.CorrectlyWrong : 14
+[1;33m*[0m warnings: [1;37m30[0m

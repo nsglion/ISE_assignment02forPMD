@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.5" timestamp="2014-02-26T18:51:10.003">
+<file name="src/code/CorrectlyWrong.java">
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like ContainsDuplicates
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Coupling" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/design.html#ImmutableField" priority="3">
+Private field 'ContainsDuplicates' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="7" endline="7" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'ContainsDuplicates' starts with uppercase character.
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="LongVariable" ruleset="Naming" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like containsDuplicates
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Coupling" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="9" endline="9" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'containsDuplicates' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Coupling" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="13" endline="18" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'elem' (lines '13'-'18').
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="VariableNamingConventions" ruleset="Naming" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'TEMP' starts with uppercase character.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'duplicatesRemoved' could be declared final
+</violation>
+<violation beginline="16" endline="27" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'TEMP' (lines '16'-'27').
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'elem' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Coupling" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="20" endline="27" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'TEMP' (lines '20'-'27').
+</violation>
+<violation beginline="23" endline="25" begincolumn="0" endcolumn="0" rule="EmptyIfStmt" ruleset="Empty Code" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="23" endline="25" begincolumn="0" endcolumn="0" rule="EmptyIfStmt" ruleset="Empty Code" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="23" endline="23" begincolumn="0" endcolumn="0" rule="LawOfDemeter" ruleset="Coupling" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="EmptyStatementNotInLoop" ruleset="Empty Code" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/empty.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="EmptyStatementNotInLoop" ruleset="Empty Code" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/empty.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="UnusedLocalVariable" ruleset="Unused Code" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'd'.
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like d
+</violation>
+<violation beginline="25" endline="27" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'd' (lines '25'-'27').
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="code" class="CorrectlyWrong" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'd' could be declared final
+</violation>
+</file>
+<file name="src/test/CorrectlyWrongTest.java">
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="test" class="CorrectlyWrongTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="LooseCoupling" ruleset="Coupling" package="test" class="CorrectlyWrongTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="test" class="CorrectlyWrongTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="DefaultPackage" ruleset="Controversial" package="test" class="CorrectlyWrongTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="test" class="CorrectlyWrongTest" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.5/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+</file>
+</pmd>
