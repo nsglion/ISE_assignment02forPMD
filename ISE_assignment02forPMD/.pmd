@@ -221,7 +221,7 @@
         </rule>
         <rule>
             <name>AssignmentInOperand</name>
-            <ruleset>Controversial</ruleset>
+            <ruleset>Basic Ecmascript</ruleset>
         </rule>
         <rule>
             <name>AtLeastOneConstructor</name>
@@ -1085,7 +1085,7 @@
         </rule>
         <rule>
             <name>UnnecessaryParentheses</name>
-            <ruleset>Unnecessary</ruleset>
+            <ruleset>Controversial</ruleset>
         </rule>
         <rule>
             <name>UnnecessaryBlock</name>
