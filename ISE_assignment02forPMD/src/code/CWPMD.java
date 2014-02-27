@@ -1,6 +1,6 @@
 package code;
 
-public class CW2 {
+public class CWPMD {
 	String y = "example";
 	int x = y.length();
 
@@ -19,6 +19,6 @@ public class CW2 {
 	public void setX(int x) {
 		this.x = x;
 	}
-		
+	
 	
 }

@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import org.junit.Before;
 import org.junit.Test;
 
-import code.CorrectlyWrong;
+import code.CorrectlyWrongPMD;
 
 public class CorrectlyWrongTest {
 
-	private CorrectlyWrong classTested;
+	private CorrectlyWrongPMD classTested;
 	ArrayList<Integer> testArray;;
 	
 	
@@ -25,7 +25,7 @@ public class CorrectlyWrongTest {
 		testArray.add(4);
 		testArray.add(2);
 		
-		classTested = new CorrectlyWrong(testArray);
+		classTested = new CorrectlyWrongPMD(testArray);
 	}
 	
 	@Test

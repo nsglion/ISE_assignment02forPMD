@@ -2,12 +2,12 @@ package code;
 
 import java.util.ArrayList;
 
-public class CorrectlyWrong {
+public class CorrectlyWrongPMD {
 	
 	private ArrayList<Integer> ContainsDuplicates;
 	private String unusedVar = "pmdViolationTester";
 	
-	public CorrectlyWrong(ArrayList<Integer> ContainsDuplicates){
+	public CorrectlyWrongPMD(ArrayList<Integer> ContainsDuplicates){
 		try {
 			this.ContainsDuplicates = ContainsDuplicates;
 		} catch (Exception e) {
